@@ -1,5 +1,6 @@
-from marshmallow_dataclass import dataclass
 from typing import List
+
+from marshmallow_dataclass import dataclass
 
 from automateda11y.modal.axe.issuetype import IssueType
 from automateda11y.modal.axe.testengine import TestEngine

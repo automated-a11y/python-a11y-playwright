@@ -1,8 +1,9 @@
 from dataclasses import field
+from typing import List
 
 from marshmallow import EXCLUDE
 from marshmallow_dataclass import dataclass
-from typing import List
+
 from automateda11y.modal.axe.runonly import RunOnly
 
 

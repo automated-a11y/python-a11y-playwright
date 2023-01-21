@@ -1,5 +1,6 @@
-from marshmallow_dataclass import dataclass
 from typing import List
+
+from marshmallow_dataclass import dataclass
 
 
 @dataclass

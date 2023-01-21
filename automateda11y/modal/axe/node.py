@@ -1,5 +1,7 @@
-from marshmallow_dataclass import dataclass
 from typing import List
+
+from marshmallow_dataclass import dataclass
+
 from automateda11y.modal.axe.checks import Checks
 
 
