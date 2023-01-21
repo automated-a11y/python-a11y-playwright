@@ -11,7 +11,7 @@ def root_dir():
 
 class A11y:
 
-    def __int__(self, page):
+    def __init__(self, page):
         self.page = page
 
     def execute(self, engine, params=None):

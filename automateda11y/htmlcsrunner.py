@@ -1,12 +1,13 @@
 from automateda11y.a11y.engine import Engine
+from automateda11y.modal.htmlcs.issues import Issues
 from automateda11y.modal.params import Params
 from automateda11y.util.a11y import A11y
 
 
 class HtmlCsRunner:
 
-    def __int__(self, page):
-        self.a11y = A11y(self, page)
+    def __init__(self, page):
+        self.a11y = A11y(page)
         self.params = Params()
 
     def set_standard(self, standard="WCAG2AA"):
@@ -19,5 +20,6 @@ class HtmlCsRunner:
         self.params.set_page_title(page_title)
 
     def execute(self):
-        data = self.a11y.execute(Engine.HTML_CS, self.params)
+        data = self.a11y.execute(Engine.HTMLCS, self.params)
+        return Issues.Schema().load(data, )
 
