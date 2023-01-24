@@ -1,3 +1,6 @@
 /venv/
 /.idea/
-
+/reports/
+/build/
+/dist/
+/python_a11y_playwright.egg-info/
