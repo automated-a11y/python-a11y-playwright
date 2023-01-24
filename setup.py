@@ -1,4 +1,8 @@
+from pathlib import Path
 from setuptools import setup
+
+this_directory = Path(__file__).parent
+long_description = (this_directory / "ReadMe.md").read_text()
 
 setup(
     name='python-a11y-playwright',
@@ -12,5 +16,7 @@ setup(
     author='Sridhar Bandi',
     author_email='sridhar.bandi.ece@gmail.com',
     description='Automate Web Accessibility Testing using AXE/HTMLCS with Playwright Python',
-    install_requires=['marshmallow-dataclass', 'marshmallow']
+    install_requires=['marshmallow-dataclass', 'marshmallow'],
+    long_description=long_description,
+    long_description_content_type='text/markdown'
 )
