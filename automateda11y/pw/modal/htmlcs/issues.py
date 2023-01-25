@@ -2,7 +2,7 @@ from typing import List
 
 from marshmallow_dataclass import dataclass
 
-from automateda11y.modal.htmlcs.issue import Issue
+from automateda11y.pw.modal.htmlcs.issue import Issue
 
 
 @dataclass

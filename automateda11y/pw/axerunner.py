@@ -1,9 +1,9 @@
 from marshmallow import EXCLUDE
 
-from automateda11y.a11y.engine import Engine
-from automateda11y.modal.axe.issues import Issues
-from automateda11y.modal.params import Params
-from automateda11y.util.a11y import A11y
+from automateda11y.pw.a11y.engine import Engine
+from automateda11y.pw.modal.axe.issues import Issues
+from automateda11y.pw.modal.params import Params
+from automateda11y.pw.util.a11y import A11y
 
 
 class AxeRunner:

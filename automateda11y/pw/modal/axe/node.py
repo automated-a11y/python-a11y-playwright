@@ -2,7 +2,7 @@ from typing import List
 
 from marshmallow_dataclass import dataclass
 
-from automateda11y.modal.axe.checks import Checks
+from automateda11y.pw.modal.axe.checks import Checks
 
 
 @dataclass

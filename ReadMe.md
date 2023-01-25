@@ -33,9 +33,9 @@ Below is the example usage using HTML CodeSniffer.
 ```python
 from pathlib import Path
 
-from automateda11y.settings import Settings
+from automateda11y.pw.settings import Settings
 from playwright.sync_api import sync_playwright
-from automateda11y.htmlcsrunner import HtmlCsRunner
+from automateda11y.pw.htmlcsrunner import HtmlCsRunner
 
 
 def json_reports_dir():
@@ -58,9 +58,9 @@ Below is the example usage using Deque Axe.
 ```python
 from pathlib import Path
 
-from automateda11y.settings import Settings
+from automateda11y.pw.settings import Settings
 from playwright.sync_api import sync_playwright
-from automateda11y.axerunner import AxeRunner
+from automateda11y.pw.axerunner import AxeRunner
 
 
 def json_reports_dir():

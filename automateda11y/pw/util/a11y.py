@@ -1,11 +1,10 @@
 import json
 import os
-import sys
 import uuid
 
 from pathlib import Path
 
-from automateda11y.settings import Settings
+from automateda11y.pw.settings import Settings
 
 
 def root_dir():
