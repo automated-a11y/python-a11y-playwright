@@ -4,3 +4,4 @@
 /build/
 /dist/
 /python_a11y_playwright.egg-info/
+/python_a11y_playwright_test.egg-info/

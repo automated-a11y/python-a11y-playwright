@@ -4,7 +4,7 @@ from typing import List
 from marshmallow import EXCLUDE
 from marshmallow_dataclass import dataclass
 
-from automateda11y.modal.axe.runonly import RunOnly
+from automateda11y.pw.modal.axe.runonly import RunOnly
 
 
 @dataclass

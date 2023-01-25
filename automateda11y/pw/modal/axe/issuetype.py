@@ -3,7 +3,7 @@ from typing import List
 
 from marshmallow_dataclass import dataclass
 
-from automateda11y.modal.axe.node import Node
+from automateda11y.pw.modal.axe.node import Node
 
 
 @dataclass
