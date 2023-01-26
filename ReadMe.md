@@ -22,7 +22,7 @@ to 80% issue coverage, or more, during development.
 For maven based project add the below dependency
 
 ```
-pip install -i https://test.pypi.org/simple/ python-a11y-playwright
+pip install python-a11y-playwright
 ```
 ### Getting Started
 
