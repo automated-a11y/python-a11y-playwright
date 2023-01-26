@@ -9,6 +9,13 @@ Section 508 legislation.
 **Deque Axe** : World’s leading digital accessibility toolkit. Powerful and accurate accessibility toolkit can get you
 to 80% issue coverage, or more, during development.
 
+[![Python badge](https://img.shields.io/badge/python-3.10-green.svg)](https://www.python.org/downloads/)
+[![PyPI version](https://badge.fury.io/py/python-a11y-playwright.svg)](https://badge.fury.io/py/python-a11y-playwright)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/52674c845fa54bc5afafd9b4ce960503)](https://www.codacy.com/gh/automated-a11y/python-a11y-playwright/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=automated-a11y/python-a11y-playwright&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/52674c845fa54bc5afafd9b4ce960503)](https://www.codacy.com/gh/automated-a11y/python-a11y-playwright/dashboard?utm_source=github.com&utm_medium=referral&utm_content=automated-a11y/python-a11y-playwright&utm_campaign=Badge_Coverage)
+[![License badge](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Contributer badge](https://img.shields.io/github/contributors/automated-a11y/java-a11y-playwright.svg)](https://github.com/automated-a11y/java-a11y-playwright/graphs/contributors)
+
 ### Features
 
 1. Simple & Easy to use
