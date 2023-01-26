@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-a11y-playwright"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Sridhar Bandi", email="sridhar.bandi.ece@gmail.com" },
 ]
