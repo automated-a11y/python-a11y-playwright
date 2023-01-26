@@ -14,6 +14,7 @@ class AxeRunner:
 
     def set_page_title(self, page_title):
         self.params.set_page_title(page_title)
+        return self
 
     def execute(self):
         data = self.a11y.execute(Engine.AXE, self.params)

@@ -1,4 +1,4 @@
 playwright==1.29.1
 marshmallow-dataclass==8.5.11
-marshmallow~=3.19.0
-pynguin~=0.30.0
+pytest-playwright==0.3.0
+coverage==7.1.0

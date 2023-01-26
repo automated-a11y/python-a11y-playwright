@@ -10,7 +10,7 @@ def root_dir():
     return Path(__file__).parent.parent.__str__()
 
 
-def test_register_link(page: Page):
+def test_accessibility_axe(page: Page):
     Settings.report_dir = root_dir() + '/reports'
     page.goto("file://"+root_dir()+"/tests/test.html")
     data = AxeRunner(page).set_page_title("Page Title").execute()

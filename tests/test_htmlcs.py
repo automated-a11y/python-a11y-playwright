@@ -11,7 +11,7 @@ def root_dir():
     return Path(__file__).parent.parent.__str__()
 
 
-def test_register_link(page: Page):
+def test_accessibility_htmlcs(page: Page):
     Settings.report_dir = root_dir() + '/reports'
     page.goto("file://"+root_dir()+"/tests/test.html")
     data = HtmlCsRunner(page).set_standard().set_page_title("Page Title").set_ignore_code([]).execute()
