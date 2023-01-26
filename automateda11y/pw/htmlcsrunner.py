@@ -12,12 +12,15 @@ class HtmlCsRunner:
 
     def set_standard(self, standard="WCAG2AA"):
         self.params.set_standard(standard)
+        return self
 
     def set_ignore_code(self, codes):
         self.params.set_ignore_codes(codes)
+        return self
 
     def set_page_title(self, page_title):
         self.params.set_page_title(page_title)
+        return self
 
     def execute(self):
         data = self.a11y.execute(Engine.HTMLCS, self.params)
