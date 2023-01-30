@@ -118,6 +118,39 @@ Page Report
 > `a11y-report -j=<jsonDir> -e=axe -o=<outputDir>`
 
 HTML Reports will be generated in `<outputDir>` folder.
+
+#### Python snippet to generate HTML reports*
+>*This snippet works only if the above-mentioned command line utility is configured.
+```python
+import subprocess
+
+
+class A11yReport:
+    def __init__(self, json_dir, engine, output_dir):
+        self.json_dir = json_dir
+        self.engine = engine
+        self.output_dir = output_dir
+
+    def generate_html_report(self):
+        command = f"a11y-report -j={self.json_dir} -e={self.engine} -o={self.output_dir}"
+        result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, encoding="utf-8")
+        return result.stdout, result.stderr
+
+```
+In the tear down method, after executing all tests, call the `generate_html_report` to generate HTML reports
+
+```python
+a11y_report = A11yReport(json_dir, "axe/htmlcs", html_dir)
+stdout, stderr = a11y_report.generate_html_report()
+
+print("Stdout:")
+print(stdout)
+print("Stderr:")
+print(stderr)
+```
+
+Here is the example project: https://github.com/automated-a11y/python-a11y-playwright-example for your reference
+
 Below are the report screenshots
 
 Consolidated Report
